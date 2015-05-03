@@ -19,6 +19,6 @@ It may or may not have more than one logical thread of control.
 
 * **Concurrency** is about dealing with lots of things at once. **Parallelism** is about doing lots of things at once.
 
-#Interesting links
-##Chapter 1
+##Interesting links
+###Chapter 1
 * Concurrency is not parallelism (it's better): http://concur.rspace.googlecode.com/hg/talk/concur.html#title-slide
