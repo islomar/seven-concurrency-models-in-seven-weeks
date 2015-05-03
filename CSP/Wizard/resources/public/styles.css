@@ -1,0 +1,5 @@
+label { display:block; width:8em; clear:left; float:left;
+      text-align:right; margin-right: 3pt; }
+input { display:block; }
+.step { display:none; }
+/* END_HIGHLIGHT */

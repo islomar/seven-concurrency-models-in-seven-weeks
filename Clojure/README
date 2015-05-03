@@ -1,0 +1,11 @@
+These examples are all written in Clojure and compiled with Leiningen:
+
+    http://leiningen.org
+
+To build and run, change into the directory of the project and:
+
+    lein run
+
+To run an interactive console (REPL) with the code for a project loaded:
+
+    lein repl

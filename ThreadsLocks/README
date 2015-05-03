@@ -1,0 +1,8 @@
+These examples are all written in Java and compiled with Maven:
+
+    http://maven.apache.org/download.cgi
+
+To build and run, change into the directory of the project and:
+
+    mvn compile
+    mvn exec:java

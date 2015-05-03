@@ -1,0 +1,22 @@
+Most of these examples are written in C and compiled with GNU Make and GCC:
+
+	http://www.gnu.org/software/make/
+	http://www.gnu.org/software/gcc/
+
+To build, change into the directory of the project and:
+
+	make
+	./target/<executable-name>
+
+The Ripple and Zoom examples are written in Java and compiled with Maven:
+
+    http://maven.apache.org/download.cgi
+
+To build and run, change into the directory of the project and:
+
+    mvn compile
+    env MAVEN_OPTS=-Djava.library.path=target/natives mvn exec:java
+
+Or use the run script:
+
+	./run

@@ -1,0 +1,35 @@
+<!--
+ ! Excerpted from "Seven Concurrency Models in Seven Weeks",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/pb7con for more book information.
+-->
+<html>
+  <head>
+    <title>Wizard</title>
+    <script src="/js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <form id="wizard" action="/wizard" method="post">
+      <fieldset class="step" id="step1">
+        <legend>Step 1</legend>
+        <label>First Name:</label><input type="text" name="firstname" />
+        <label>Last Name:</label><input type="text" name="lastname" />
+      </fieldset>
+      <fieldset class="step" id="step2">
+        <legend>Step 2</legend>
+        <label>Date of Birth:</label><input type="date" name="dob" />
+        <label>Homepage:</label><input type="url" name="url" />
+      </fieldset>
+      <fieldset class="step" id="step3">
+        <legend>Step 3</legend>
+        <label>Password:</label><input type="password" name="pass1" />
+        <label>Confirm Password:</label><input type="password" name="pass2" />
+      </fieldset>
+      <input type="button" id="next" value="Next" />
+    </form>
+  </body>
+</html>
