@@ -1,7 +1,6 @@
 # Seven Concurrency Models in Seven Weeks Book Club
 
-
-
+[More info](https://contrast.atlassian.net/wiki/spaces/ENG/pages/651886630/Book+Club+-+Seven+Concurrency+Models+in+Seven+Weeks)
 
 ## Agenda
 ### Chapter 1 (Introduction) - 9/20/2018
