@@ -9,7 +9,7 @@ If you do any of the programming exercises here, feel free to make a PR against 
 * Atomic Variables
 
 ## Discussion
-
+  
 ### Find
 * ReentrantLock supports a fairness parameter. What does it mean for a lock
 to be “fair”? Why might you choose to use a fair lock? Why might you not?
