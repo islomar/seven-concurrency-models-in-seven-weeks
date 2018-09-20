@@ -1,10 +1,15 @@
 ### Review
 
+* Race Conditions
+
 * Memory Visibility
-
-* Race Condition
-
+    - CPU caches
+    - instruction reordering
+    - double-lock pattern
+    
 * Deadlock
+    - lock ordering
+    - alien methods
 
 ## Self study/Discussion
 

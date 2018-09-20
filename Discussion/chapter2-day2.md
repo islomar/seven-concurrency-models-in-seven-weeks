@@ -8,17 +8,28 @@ If you do any of the programming exercises here, feel free to make a PR against 
 
 * Atomic Variables
 
+* Volatile fields
+
 ## Discussion
   
 ### Find
 * ReentrantLock supports a fairness parameter. What does it mean for a lock
 to be “fair”? Why might you choose to use a fair lock? Why might you not?
+    http://www.devinline.com/2015/10/Lock-Vs-synchronized-in-java.html
+
 * What is ReentrantReadWriteLock? How does it differ from ReentrantLock? When
 might you use it?
+
+    https://stackoverflow.com/questions/18354339/reentrantreadwritelock-whats-the-difference-between-readlock-and-writelock
+
 *  What is a “spurious wakeup”? When can one happen and why doesn’t a
 well-written program care if one does?
+    https://en.wikipedia.org/wiki/Spurious_wakeup
+
+
 *  What is AtomicIntegerFieldUpdater? How does it differ from AtomicInteger? When
 might you use it?
+    https://www.javamex.com/tutorials/synchronization_concurrency_7_atomic_updaters.shtml
 
 ### Do
 
