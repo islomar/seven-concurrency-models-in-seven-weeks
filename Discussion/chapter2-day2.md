@@ -1,5 +1,3 @@
-If you do any of the programming exercises here, feel free to make a PR against this repo.  We will review these PR's and merge them.
-
 ## Review
 
 * ReentrantLock
@@ -33,15 +31,19 @@ might you use it?
 
 ### Do
 
+#### Make a PR against /exercises/chapter2-day2 folder
+
 * What would happen if the loop within the “dining philosophers” implemen-
 tation that uses condition variables was replaced with a simple if statement?
 
 *  What failure modes might you see? What would happen if the call to signal()
 was replaced by signalAll()? What problems (if any) would this cause?
+
 * Just as intrinsic locks are more limited than ReentrantLock, they also support
 a more limited type of condition variable. Rewrite the dining philosophers
 to use an intrinsic lock plus the wait() and notify() or notifyAll() methods. Why
 is it less efficient than using ReentrantLock?
+
 * Write a version of ConcurrentSortedList that uses a single lock instead of
 hand-over-hand locking. Benchmark it against the other version. Does
 hand-over-hand locking provide any performance advantage? When might
