@@ -35,10 +35,10 @@ public class Philosopher extends Thread {
         // eat
         eating = false;
         synchronized (left.lockObject) {
-          left.lockObject.notifyAll();
+          left.lockObject.notify();
         }
         synchronized (right.lockObject) {
-          right.lockObject.notifyAll();
+          right.lockObject.notify();
         }
         Thread.sleep(1000);
 
